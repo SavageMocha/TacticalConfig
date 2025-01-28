@@ -62,7 +62,7 @@
 
         combo_bluetooth {
             timeout-ms = <50>;
-            key-positions = <13 14 15 16>;02465486484846546235
+            key-positions = <13 14 15 16>;
             bindings = <&mo 5>;
             layers = <0>;
         };
