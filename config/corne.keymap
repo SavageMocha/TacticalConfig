@@ -17,6 +17,7 @@
             key-positions = <13 14>;
             bindings = <&kp LEFT_SHIFT>;
             layers = <0 1 3 5>;
+            slow-release = true;
         };
 
         combo_shift2 {
@@ -24,6 +25,7 @@
             key-positions = <22 23>;
             bindings = <&kp LEFT_SHIFT>;
             layers = <0 1 3 5>;
+            slow-release = true;
         };
     };
 };
