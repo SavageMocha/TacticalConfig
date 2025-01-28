@@ -37,7 +37,7 @@
         };
 
         combo_control2 {
-            timeout-ms = <50>
+            timeout-ms = <50>;
             key-positions = <31 32>;
             bindings = <&sk LEFT_CONTROL>;
             layers = <0 1 3 5>;
@@ -80,10 +80,10 @@
 // | none |  ;  |  Q  |  J  |  K  |  X  |   |  B  |  M   |  W  |  V  |  Z  | none |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
-   &none &kp GRAVE &kp LESS_THAN   &kp GREATER_THAN  &kp PLUS     &kp PIPE              &kp AMPERSAND  &kp PAGE_UP            &kp UP_ARROW            &kp PAGE_DOWN     &kp SLASH           &none
-   &none &kp TAB   &kp UNDERSCORE  &kp EQUAL         &kp LEFT_ALT &kp BACKSLASH         &kp HOME       &kp LEFT_ARROW         &kp DOWN_ARROW          &kp RIGHT_ARROW   &kp MINUS           &none
-   &none &none     &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp ENTER    &none                 &kp END        &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS   &kp LEFT_BRACKET  &kp RIGHT_BRACKET   &none
-                  &trans &trans &trans     &kp LEFT_CONTROL &kp DELETE &kp LEFT_WIN
+   &none &kp GRAVE       &kp LESS_THAN   &kp GREATER_THAN  &kp PLUS     &kp PIPE              &kp AMPERSAND  &kp PAGE_UP            &kp UP_ARROW            &kp PAGE_DOWN     &kp SLASH           &none
+   &none &kp TAB         &kp UNDERSCORE  &kp EQUAL         &kp LEFT_ALT &kp BACKSLASH         &kp HOME       &kp LEFT_ARROW         &kp DOWN_ARROW          &kp RIGHT_ARROW   &kp MINUS           &none
+   &none &bt BT_CLR_ALL  &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp ENTER    &none                 &kp END        &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS   &kp LEFT_BRACKET  &kp RIGHT_BRACKET   &none
+                &none    &trans &trans   &kp LEFT_CONTROL &kp DELETE &kp LEFT_WIN
                         >;
                 };
 
