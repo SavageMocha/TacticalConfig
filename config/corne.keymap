@@ -34,14 +34,6 @@
             slow-release;
         };
 
-        combo_numshift {
-            timeout-ms = <50>;
-            key-positions = <13 14>;
-            bindings = <&kp LEFT_SHIFT>;
-            layers = <2>;
-            slow-release;
-        };
-
         combo_shift2 {
             timeout-ms = <50>;
             key-positions = <21 22>;
@@ -50,19 +42,19 @@
             slow-release;
         };
 
+        combo_numshift {
+            timeout-ms = <50>;
+            key-positions = <13 14>;
+            bindings = <&kp LEFT_SHIFT>;
+            layers = <2>;
+            slow-release;
+        };
+
         combo_control {
             timeout-ms = <50>;
             key-positions = <25 26>;
             bindings = <&sk LEFT_CONTROL>;
-            layers = <0 1>;
-            slow-release;
-        };
-
-        combo_control2 {
-            timeout-ms = <50>;
-            key-positions = <33 34>;
-            bindings = <&sk LEFT_CONTROL>;
-            layers = <0 1>;
+            layers = <0>;
             slow-release;
         };
 
@@ -78,7 +70,7 @@
             timeout-ms = <50>;
             key-positions = <19 20 21>;
             bindings = <&kp ENTER>;
-            layers = <0 1 2>;
+            layers = <0>;
             slow-release;
         };
 
