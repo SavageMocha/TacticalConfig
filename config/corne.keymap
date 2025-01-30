@@ -59,7 +59,7 @@
         combo_control {
             timeout-ms = <50>;
             key-positions = <25 26>;
-            bindings = <&none>;
+            bindings = <&sk LEFT_CONTROL>;
             layers = <0>;
             slow-release;
         };
