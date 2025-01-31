@@ -131,8 +131,8 @@
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
    &none &kp GRAVE       &kp LESS_THAN   &kp GREATER_THAN  &kp PLUS      &kp PIPE              &kp AMPERSAND  &kp PAGE_UP            &kp UP_ARROW            &kp PAGE_DOWN     &kp SLASH           &none
-   &none &kp TAB         &kp UNDERSCORE  &kp EQUAL         &sk LEFT_ALT  &kp BACKSLASH         &kp HOME       &kp LEFT_ARROW         &kp DOWN_ARROW          &kp RIGHT_ARROW   &kp MINUS           &none
-   &none &kp LEFT_BRACE  &kp RIGHT_BRACE &none &none &none                 &kp END        &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS   &kp LEFT_BRACKET  &kp RIGHT_BRACKET   &none
+   &none &kp TAB         &mo 2           &kp EQUAL         &sk LEFT_ALT  &kp BACKSLASH         &kp HOME       &kp LEFT_ARROW         &kp DOWN_ARROW          &kp RIGHT_ARROW   &kp MINUS           &none
+   &none &kp COLON       &kp UNDERSCORE  &kp LEFT_BRACE    &kp RIGHT_BRACE &none           &kp END        &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS   &kp LEFT_BRACKET  &kp RIGHT_BRACKET   &none
                 &none    &trans    &trans               &sk LEFT_CONTROL &kp DELETE &kp LEFT_WIN
                         >;
                 };
