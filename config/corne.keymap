@@ -161,9 +161,9 @@
 // | none |  ;  |  Q  |  J  |  K  |  X  |   |  B  |  M   |  W  |  V  |  Z  | none |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
-        &to 0 &to 0 &to 0 &to 0 &to 0 &to 0             &kp F1 &kp F3 &kp F6         &to 0   &to 0    &to 0
-        &to 0 &to 0 &to 0 &to 0 &to 0 &to 0             &kp F7 &kp F5 &kp F10        &kp F11 &kp F12  &to 0
-        &to 0 &to 0 &to 0 &to 0 &to 0 &to 0             &to 0  &kp F9 &alt_ef_four   &to 0   &kp F2   &to 0
+        &none &none &none &none &none &none             &kp F1 &kp F3 &kp F6         &none   &none    &none
+        &trans &trans &none &none &none &none             &kp F7 &kp F5 &kp F10        &kp F11 &kp F12  &none
+        &none &none &none &none &none &none             &none  &kp F9 &alt_ef_four   &none   &kp F2   &none
                         &trans &trans &trans               &trans &trans &trans
                         >;
                 };
