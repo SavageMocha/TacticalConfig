@@ -36,7 +36,7 @@
             timeout-ms = <50>;
             key-positions = <13 14>;
             bindings = <&sk LEFT_SHIFT>;
-            layers = <0 1>;
+            layers = <0 1 3>;
             slow-release;
         };
 
