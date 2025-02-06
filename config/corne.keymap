@@ -130,7 +130,7 @@
 // | none |  ;  |  Q  |  J  |  K  |  X  |   |  B  |  M   |  W  |  V  |  Z  | none |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
-   &none &kp GRAVE       &mo 3             &kp EQUAL         &kp PLUS        &kp PIPE              &kp AMPERSAND  &kp PAGE_UP            &kp UP_ARROW            &kp PAGE_DOWN       &kp SLASH           &none
+   &none &kp GRAVE       &mo 4             &kp EQUAL         &kp PLUS        &kp PIPE              &kp AMPERSAND  &kp PAGE_UP            &kp UP_ARROW            &kp PAGE_DOWN       &kp SLASH           &none
    &none &kp TAB         &sk LEFT_SHIFT    &kp EQUAL         &sk LEFT_ALT    &kp ENTER             &kp HOME       &kp LEFT_ARROW         &kp DOWN_ARROW          &kp RIGHT_ARROW     &kp MINUS             &none
    &none &kp UNDERSCORE  &kp LEFT_BRACE    &kp RIGHT_BRACE   &kp BACKSLASH   &kp COLON             &kp END        &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS   &kp LEFT_BRACKET    &kp RIGHT_BRACKET   &none
 
@@ -149,7 +149,7 @@
 &none &trans &trans &trans &trans &kp C_PLAY_PAUSE         &none &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &none        &none
 &none &kp C_PREV &kp C_PLAY_PAUSE &kp C_NEXT  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP                                           &none &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp NUMBER_0 &none
 &none &kp LEFT_ALT &kp LEFT_SHIFT &kp LEFT_CONTROL &none &none                           &none &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp SPACE    &none
-                                &none &trans &mo 3                       &trans &trans &trans
+                                &none &trans &sl 3                       &trans &trans &trans
                 >;
         };
 
