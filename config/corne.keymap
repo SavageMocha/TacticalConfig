@@ -130,7 +130,7 @@
 // | none |  ;  |  Q  |  J  |  K  |  X  |   |  B  |  M   |  W  |  V  |  Z  | none |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
-   &none &kp GRAVE       &mo 4             &kp EQUAL         &sl 3           &kp PLUS              &kp AMPERSAND  &kp PAGE_UP            &kp UP_ARROW            &kp PAGE_DOWN       &kp SLASH           &none
+   &none &kp GRAVE       &sl3              &kp EQUAL         &mo 4           &kp PLUS              &kp AMPERSAND  &kp PAGE_UP            &kp UP_ARROW            &kp PAGE_DOWN       &kp SLASH           &none
    &none &kp TAB         &sl 2             &sk LEFT_SHIFT    &sk LEFT_ALT    &kp BSPC              &kp HOME       &kp LEFT_ARROW         &kp DOWN_ARROW          &kp RIGHT_ARROW     &kp MINUS           &none
    &none &kp UNDERSCORE  &kp LEFT_BRACE    &kp RIGHT_BRACE   &kp BACKSLASH   &kp COLON             &kp END        &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS   &kp LEFT_BRACKET    &kp RIGHT_BRACKET   &none
 
