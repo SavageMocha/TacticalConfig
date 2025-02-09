@@ -149,7 +149,7 @@
 &none &trans &trans &kp DOT &trans &trans                                          &none &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp PIPE        &none
 &none &none &trans &trans  &trans  &trans            &none &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp PLUS        &none
 &none &kp LEFT_ALT &kp LEFT_SHIFT &kp LEFT_CONTROL &none &none                              &none &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp EQUAL       &none
-                                &none &trans &sl 3                       &kp LEFT_CONTROL  &kp NUMBER_0 &kp SPACE
+                                &none &trans &sl 3                       &kp NUMBER_0 &none &kp SPACE
                 >;
         };
 
