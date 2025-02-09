@@ -35,7 +35,7 @@
         combo_shift {
             timeout-ms = <50>;
             key-positions = <13 14>;
-            bindings = <&none> // <&sk LEFT_SHIFT>;
+            bindings = <&none>; // <&sk LEFT_SHIFT>;
             layers = <0 1 3>;
             slow-release;
         };
