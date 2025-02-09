@@ -153,6 +153,7 @@
 // | none |  A  |  O  |  E  |  U  |  I  |   |  D  |  H   |  T  |  N  |  S  | none |
 // | none |  ;  |  Q  |  J  |  K  |  X  |   |  B  |  M   |  W  |  V  |  Z  | none |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
+                display-name = "Num";
                 bindings = <
 &none &trans &trans &kp DOT &trans &trans                                          &none &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp PIPE        &none
 &none &none &trans &trans  &trans  &trans            &none &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp PLUS        &none
