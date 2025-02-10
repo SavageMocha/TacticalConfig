@@ -138,7 +138,7 @@
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                          display-name = "Mod";
                          bindings = <
-   &none &kp GRAVE       &sl 3             &kp EQUAL         &mo 4           &sl 6                 &kp AMPERSAND  &kp PAGE_UP            &kp UP_ARROW            &kp PAGE_DOWN       &kp SLASH           &noneg
+   &none &kp GRAVE       &sl 3             &kp EQUAL         &mo 4           &sl 6                 &kp AMPERSAND  &kp PAGE_UP            &kp UP_ARROW            &kp PAGE_DOWN       &kp SLASH           &none
    &none &kp TAB         &sl 2             &sk LEFT_SHIFT    &sk LEFT_ALT    &kp LEFT_CONTROL      &kp HOME       &kp LEFT_ARROW         &kp DOWN_ARROW          &kp RIGHT_ARROW     &kp MINUS           &none
    &none &kp UNDERSCORE  &kp LEFT_BRACE    &kp RIGHT_BRACE   &kp BACKSLASH   &kp COLON             &kp END        &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS   &kp LEFT_BRACKET    &kp RIGHT_BRACKET   &none
 
@@ -156,7 +156,7 @@
                 display-name = "Number";
                 bindings = <
 &none &trans &trans &kp DOT &trans &trans                                          &none &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp PIPE        &none
-&none &none &trans &trans  &trans  &trans            &none &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp PLUS        &none
+&none &kp LEFT_SHIFT &trans &trans  &trans  &trans            &none &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp PLUS        &none
 &none &kp LEFT_ALT &kp LEFT_SHIFT &kp LEFT_CONTROL &none &none                              &none &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp EQUAL       &none
                                 &none &trans &sl 3                       &kp NUMBER_0 &none &kp SPACE
                 >;
