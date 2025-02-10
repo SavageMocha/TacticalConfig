@@ -138,7 +138,7 @@
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                          display-name = "Mod";
                          bindings = <
-   &none &kp GRAVE       &sl 3             &kp EQUAL         &mo 4           &sl 6                 &kp AMPERSAND  &kp PAGE_UP            &kp UP_ARROW            &kp PAGE_DOWN       &kp SLASH           &non
+   &none &kp GRAVE       &sl 3             &kp EQUAL         &mo 4           &sl 6                 &kp AMPERSAND  &kp PAGE_UP            &kp UP_ARROW            &kp PAGE_DOWN       &kp SLASH           &noneg
    &none &kp TAB         &sl 2             &sk LEFT_SHIFT    &sk LEFT_ALT    &kp LEFT_CONTROL      &kp HOME       &kp LEFT_ARROW         &kp DOWN_ARROW          &kp RIGHT_ARROW     &kp MINUS           &none
    &none &kp UNDERSCORE  &kp LEFT_BRACE    &kp RIGHT_BRACE   &kp BACKSLASH   &kp COLON             &kp END        &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS   &kp LEFT_BRACKET    &kp RIGHT_BRACKET   &none
 
