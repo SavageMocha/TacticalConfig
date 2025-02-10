@@ -125,7 +125,7 @@
    &none &kp SQT &kp COMMA &kp DOT &kp P   &kp Y   &kp F      &kp G     &kp C   &kp R   &kp L   &none
    &none &kp A   &kp O     &kp E   &kp U   &kp I   &kp D      &kp H     &kp T   &kp N   &kp S   &none
    &none &kp SEMI &kp Q    &kp J   &kp K   &kp X   &kp B      &kp M     &kp W   &kp V   &kp Z   &none
-                  &sk LEFT_CONTROL &kp BSPC  &sl 1     &kp SPACE  &sk LEFT_SHIFT   &kp LEFT_WIN
+                  &sk LEFT_CONTROL &kp BSPC  &sl 1     &kp SPACE  &kp ENTER   &kp LEFT_WIN
                         >;
                 };
 
@@ -138,8 +138,8 @@
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                          display-name = "Mod";
                          bindings = <
-   &none &kp GRAVE       &sl 3              &kp EQUAL         &mo 4           &sl 6              &kp AMPERSAND  &kp PAGE_UP            &kp UP_ARROW            &kp PAGE_DOWN       &kp SLASH           &none
-   &none &kp TAB         &sl 2             &sk LEFT_SHIFT    &sk LEFT_ALT    &kp BSPC              &kp HOME       &kp LEFT_ARROW         &kp DOWN_ARROW          &kp RIGHT_ARROW     &kp MINUS           &none
+   &none &kp GRAVE       &sl 3             &kp EQUAL         &mo 4           &sl 6                 &kp AMPERSAND  &kp PAGE_UP            &kp UP_ARROW            &kp PAGE_DOWN       &kp SLASH           &non
+   &none &kp TAB         &sl 2             &sk LEFT_SHIFT    &sk LEFT_ALT    &kp LEFT_CONTROL      &kp HOME       &kp LEFT_ARROW         &kp DOWN_ARROW          &kp RIGHT_ARROW     &kp MINUS           &none
    &none &kp UNDERSCORE  &kp LEFT_BRACE    &kp RIGHT_BRACE   &kp BACKSLASH   &kp COLON             &kp END        &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS   &kp LEFT_BRACKET    &kp RIGHT_BRACKET   &none
 
                 &none    &trans    &trans                                                                &sk LEFT_CONTROL &kp DELETE &none
