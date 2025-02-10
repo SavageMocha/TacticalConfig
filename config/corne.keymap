@@ -198,7 +198,7 @@
 // | none |  '  |  ,  |  .  |  P  |  Y  |   |  F  |  G   |  C  |  R  |  L  | none |
 // | none |  A  |  O  |  E  |  U  |  I  |   |  D  |  H   |  T  |  N  |  S  | none |
 // | none |  ;  |  Q  |  J  |  K  |  X  |   |  B  |  M   |  W  |  V  |  Z  | none |
-//                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
+//                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |e
                          display-name = "BT";
                          bindings = <
         &none   &bt BT_CLR_ALL  &none &none &none &bt BT_CLR        &none &none &none &none &none &none
