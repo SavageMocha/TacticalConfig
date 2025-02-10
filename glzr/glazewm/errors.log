@@ -1,0 +1,17 @@
+[2m2025-01-25T19:43:29.164669Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-01-26T16:43:18.571201Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m missing field `binding_modes` at line 1 column 2
+[2m2025-01-26T16:43:57.983578Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m missing field `binding_modes` at line 1 column 2
+[2m2025-01-26T16:44:15.242073Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m missing field `binding_modes` at line 1 column 2
+[2m2025-01-27T01:04:48.287645Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-02-05T01:43:04.443288Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-02-05T01:43:06.866872Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-02-05T01:43:08.393997Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-02-05T01:43:09.191691Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-02-05T01:43:09.603919Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-02-05T01:43:10.001015Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-02-05T01:43:10.656720Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-02-05T01:43:11.189528Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-02-05T01:43:11.347889Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-02-05T01:43:11.481605Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-02-05T01:43:11.858186Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-02-09T02:29:22.949139Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
