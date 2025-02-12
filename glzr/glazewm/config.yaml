@@ -25,9 +25,9 @@ gaps:
 
   outer_gap:
     top: "40px"
-    right: "0px"
-    bottom: "0px"
-    left: "0px"
+    right: "1px"
+    bottom: "1px"
+    left: "1px"
 window_effects:
   # Visual effects to apply to the focused window.
   focused_window:
@@ -35,7 +35,7 @@ window_effects:
     # ** Exclusive to Windows 11 due to API limitations.
     border:
       enabled: true
-      color: "#4dbd11"
+      color: "#42cef5"
   # Visual effects to apply to non-focused windows.
 
   other_windows:
@@ -66,14 +66,23 @@ window_behavior:
 
 workspaces:
   - name: "1"
+    bind_to_monitor: 0
   - name: "2"
+    bind_to_monitor: 0
   - name: "3"
+    bind_to_monitor: 0
   - name: "4"
+    bind_to_monitor: 0
   - name: "5"
+    bind_to_monitor: 0
   - name: "6"
+    bind_to_monitor: 0
   - name: "7"
+    bind_to_monitor: 1
   - name: "8"
+    bind_to_monitor: 1
   - name: "9"
+    bind_to_monitor: 1
 
 window_rules:
   - commands: ["ignore"]
@@ -123,13 +132,13 @@ keybindings:
 
   # change window size
   - commands: ["resize --width -2%"]
-    bindings: ["ctrl+alt+h"]
+    bindings: ["ctrl+alt+left"]
   - commands: ["resize --width +2%"]
-    bindings: ["ctrl+alt+n"]
+    bindings: ["ctrl+alt+right"]
   - commands: ["resize --height +2%"]
-    bindings: ["ctrl+alt+c"]
+    bindings: ["ctrl+alt+up"]
   - commands: ["resize --height -2%"]
-    bindings: ["ctrl+alt+t"]    
+    bindings: ["ctrl+alt+down"]    
 
 
   # - commands: ["wm-enable-binding-mode --name pause"]
@@ -168,10 +177,6 @@ keybindings:
   #   # Kill GlazeWM process safely.
   #   bindings: ["alt+shift+e"]
 
-  # - commands: ["wm-reload-config"]
-  #   # Re-evaluate configuration file.
-  #   bindings: ["alt+shift+r"]
-
   # - commands: ["wm-redraw"]
   #   # Redraw all windows.
   #   bindings: ["alt+shift+w"]
@@ -186,12 +191,10 @@ keybindings:
   # - commands: ["focus --next-workspace"]
   #   # Focus the next/previous workspace defined in `workspaces` config.  #   bindings: ["alt+s"]
 
-  # - commands: ["focus --prev-workspace"]
+  # - commands: ["focus --prev-workspace"]left  #   bindings: ["alt+up"]  # - commands: ["focus --recent-workspace"]
+  #   # Focus the workspace that last had focus.  #   bindings: ["alt++righup]
 
-  #   bindings: ["alt+h"]  # - commands: ["focus --recent-workspace"]
-  #   # Focus the workspace that last had focus.  #   bindings: ["alt+d"]
-
-    # Change focus to a workspace defined in `workspaces` config.
+    # Change focus to a workspace defined in `workspaces` confidown.
   - commands: ["focus --workspace 1"]
     bindings: ["alt+shift+1"]
   - commands: ["focus --workspace 2"]
@@ -210,6 +213,10 @@ keybindings:
     bindings: ["alt+shift+8"]
   - commands: ["focus --workspace 9"]
     bindings: ["alt+shift+9"]
+
+  - commands: ["wm-reload-config"]
+    # Re-evaluate configuration file.
+    bindings: ["alt+shift+r"]
   
     # Move the focused window's parent workspace to a monitor in a given
 
@@ -222,11 +229,9 @@ keybindings:
   # - commands: ["move-workspace --direction down"]
   #   bindings: ["alt+shift+s"]
 
-  
+  # Re-evaluate configuration file.
   - commands: ["wm-reload-config"]
-    # Re-evaluate configuration file.
     bindings: ["ctrl+alt+shift+r"]
-
 
   #   # Move focused window to a workspace defined in `workspaces` config.
   - commands: ["move --workspace 1", "focus --workspace 1"]
@@ -246,4 +251,4 @@ keybindings:
   - commands: ["move --workspace 8", "focus --workspace 8"]
     bindings: ["ctrl+alt+shift+8"]
   - commands: ["move --workspace 9", "focus --workspace 9"]
-    bindings: ["ctrl+alt+shift+9"]
+    bindings: ["ctrl+alt+shift+9"] G
