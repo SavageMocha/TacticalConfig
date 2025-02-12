@@ -77,7 +77,6 @@
             key-positions = <19 20 21>;
             bindings = <&kp ENTER>;
             layers = <0>;
-            slow-release;
         };
 
         combo_mouse_enter {
@@ -93,7 +92,6 @@
             key-positions = <19 20 21 22>;
             bindings = <&to 0>;
             layers = <0>;
-            slow-release;
         };
 
         combo_bluetooth {
