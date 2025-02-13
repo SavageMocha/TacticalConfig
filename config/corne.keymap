@@ -187,7 +187,7 @@
         &to 0 &to 0 &to 0 &to 0 &to 0 &to 0             &msc SCRL_LEFT &msc SCRL_UP &mmv MOVE_UP &msc SCRL_DOWN &msc SCRL_RIGHT &to 0
         &to 0 &to 0 &to 0 &to 0 &to 0 &to 0             &to 0 &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &mkp RCLK &to 0
         &to 0 &to 0 &to 0 &to 0 &to 0 &to 0             &to 0 &to 0 &mkp MCLK &to 0 &to 0 &to 0
-                        &trans &trans &trans               &mkp LCLK &kp LEFT_CONTROL &to 0
+            &trans &kp LEFT_SHIFT &kp LEFT_CONTROL      &mkp LCLK &kp LEFT_CONTROL &to 0
                         >;
                 };
 
