@@ -142,9 +142,9 @@
 //                 &none    &trans    &trans                                                                &sk LEFT_CONTROL &kp DELETE &none
 
                          bindings = <
-   &none        &kp GRAVE       &sl 2             &kp EQUAL         &sl 3           &sl 6              &kp AMPERSAND  &kp PAGE_UP            &kp UP_ARROW            &kp PAGE_DOWN       &kp SLASH           &none
-   &none        &kp TAB         &sk LEFT_CONTROL  &sk LEFT_SHIFT    &sk LEFT_ALT    &kp BACKSLASH      &kp HOME       &kp LEFT_ARROW         &kp DOWN_ARROW          &kp RIGHT_ARROW     &kp MINUS           &none
-   &none &none  &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp BACKSLASH   &kp COLON                   &kp END        &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS   &kp LEFT_BRACKET    &kp RIGHT_BRACKET   &none
+   &none        &kp GRAVE       &sl 3             &kp EQUAL         &kp CAPSLOCK           &sl 6              &kp AMPERSAND  &kp PAGE_UP            &kp UP_ARROW            &kp PAGE_DOWN       &kp SLASH           &none
+   &none        &kp TAB         &sl 2             &sk LEFT_SHIFT    &sk LEFT_ALT    &kp BACKSLASH      &kp HOME       &kp LEFT_ARROW         &kp DOWN_ARROW          &kp RIGHT_ARROW     &kp MINUS           &none
+   &none &none  &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp BACKSLASH   &kp LEFT_WIN                   &kp END        &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS   &kp LEFT_BRACKET    &kp RIGHT_BRACKET   &none
 
                 &none    &trans    &trans                                                                &sk LEFT_CONTROL &kp DELETE &none
                         >;
